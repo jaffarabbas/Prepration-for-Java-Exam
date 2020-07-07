@@ -1,19 +1,29 @@
 
 
 
+    class Administration{
+	      private String user_name;
+	      private String password;
 
-class Samin{
-	int samin_kai_uthny_ka_time = 10;
+          
+	      void Login(String username, String password){
+                
+	      }
+    }
+    class Hotel_Records extends Administration{
 
-     void make(){
-		 System.out.println(samin_kai_uthny_ka_time);
-	 }	
-}
+	}
+	class Cutomers_Record extends Hotel_Records{
 
+	}
+	class Update_Record  extends Hotel_Records{
 
+	}
+	class Room_Occupied  extends Hotel_Records{
+
+	}
 class first{
     public static void main(String[] args) {
-		Samin obj = new Samin();
-		obj.make();
+		
     }
 }
